@@ -40,6 +40,35 @@ Bello Samad is a seasoned Cloud Engineer with deep expertise in building secure,
 ---
 
 ## 🛠️ Steps Taken
+Signed up my AWS and added billing methods to it
+
+## EC2 Instance
+
+Then I went into the EC2 instance, Created a new instance, Named the instance and selected an Ubuntu distribution 
+Created a New keypair, named it and stored it in a folder already I created 
+I also selected a custom domain
+Allowed HTTP and HTTPS on the internet then I launched my instance 
+Now instance is up and running 
+
+## Connecting My EC2 instance to my local computer Bash
+
+I cd into where my key pair is and list 
+ran the command to change the permission of the key pair 
+then I copied the command from my instance and pasted on my bash 
+EC2 instance is up and running on bash 
+ 
+## Web Server Setup-installing Nginx
+I update my instance using the command "sudo apt update "
+I upgraded my instance using the command "sudo apt upgrade"
+install Nginx using command "sudo apt install Nginx" Yes
+checked if my Nginx is up and running by running command "sudo apt systemctl status Nginx
+
+Creating a personalized landing page and connecting it 
+used html and css to that already initially 
+Move my files from my local computer to my Ec2 Instance using command "scp -1 "Neuro-key.pem" ubuntu@13.62.47.169
+
+
+## Summary
 
 ### 1️⃣ Server Provisioning (AWS EC2)
 - Launched an **Ubuntu 22.04 LTS** instance via AWS EC2
